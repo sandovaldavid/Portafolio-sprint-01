@@ -1,0 +1,11 @@
+.head__nombre{
+    display: flex;
+    align-items: center;
+}
+.logo__nombre{
+    width: 24px;
+    height: 24px;
+}
+.titulo__nombre{
+    order: 2;
+}
