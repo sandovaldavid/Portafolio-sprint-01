@@ -1,0 +1,19 @@
+.head__menu{
+
+}
+.menu__lista{
+    align-items: center;
+}
+.menu__lista__item{
+    display: inline-block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    padding-left: 2rem;
+}
+.menu__lista__item:last-child {
+    font-weight: bold;
+}
