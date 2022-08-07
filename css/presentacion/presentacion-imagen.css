@@ -1,7 +1,7 @@
 .presentacion__imagen{
     width: 360px;
     height: 360px;
-    background: chocolate;
+    background: url(../../img/perfil.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
