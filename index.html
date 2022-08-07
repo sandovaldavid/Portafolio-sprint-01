@@ -58,6 +58,7 @@
     <link rel="stylesheet" href="css/contacto/contacto-informacion.css">
     <link rel="stylesheet" href="css/contacto/contacto-input.css">
     <link rel="stylesheet" href="css/contacto/contacto-titulo.css">
+    <link rel="stylesheet" href="css/contacto/form-label.css">
 </head>
 <body>
     <header class="head container">
@@ -216,18 +217,17 @@
         <img src="img/contacto.png" alt="img_contacto" class="contacto__imagen">
         <div class="contacto__informacion">
             <h2 class="contacto__titulo">Contacto</h2>
-            <p class="contacto_descripcion">¿Quieres contactarme? <br>
+            <p class="contacto__descripcion">¿Quieres contactarme? <br>
                 Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
             <form class="contacto__form">
-                <label for="nombre">Nombre</label>
+                <label class="form__label" for="nombre">Nombre</label>
                 <input type="text" id="nombre" class="contacto__input" required>
-        
-                <label for="email">Email</label>
+                <label class="form__label" for="email">Email</label>
                 <input type="email" id="email" class="contacto__input" required placeholder="example@email.com">
-        
                 <input type="text" id="asunto" class="contacto__input" required placeholder="Asunto">
         
                 <TEXtarea  id="mensaje" class="contacto__input" required placeholder="Mensaje"></TEXtarea>
+                <input type="submit" value="Enviar Mensaje" class="enviar">
             </form>
         </div>
     </section>
