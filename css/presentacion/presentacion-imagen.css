@@ -1,0 +1,10 @@
+.presentacion__imagen{
+    width: 360px;
+    height: 360px;
+    background: chocolate;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    order: 2;
+    border-radius: 100%;
+}
