@@ -8,3 +8,9 @@
     order: 2;
     border-radius: 100%;
 }
+@media screen and (max-width:768px) {
+    .presentacion__imagen{
+        width: 150px;
+        height: 150px;
+    }
+}

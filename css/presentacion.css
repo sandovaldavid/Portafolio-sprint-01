@@ -5,3 +5,8 @@
     font-family: 'Raleway',sans-serif;
     align-items: center;
 }
+@media screen and (max-width:768px) {
+    .presentacion{
+        justify-content: space-between;
+    }
+}

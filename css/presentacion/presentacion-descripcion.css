@@ -31,3 +31,18 @@
     font-weight: bold;
     transition: 0.5s;
 }
+@media screen and (max-width:768px) {
+    .presentacion__titulo{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .presentacion__biografia{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+}
