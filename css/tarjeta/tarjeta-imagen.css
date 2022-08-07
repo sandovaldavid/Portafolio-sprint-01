@@ -1,0 +1,20 @@
+.tarjeta__imagen{
+    padding-bottom: 0.5rem;
+}
+/*--------Skills--------*/
+.tarjeta__html{
+    width: 30px;
+    height: 37px;
+}
+.tarjeta__js, .tarjeta__react{
+    width: 32px;
+    height: 37px;
+}
+.tarjeta__php,  .tarjeta__node{
+    width: 45px;
+    height: 37px;
+}
+.tarjeta__css{
+    width: 23px;
+    height: 28px;
+}
