@@ -1,0 +1,8 @@
+.presentacion{
+    background:  #F5F5F5;
+    padding-bottom: 2rem ;
+    display: flex;
+    font-family: 'Raleway',sans-serif;
+    align-items: center;
+    justify-content: space-between;
+}
