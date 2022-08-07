@@ -5,3 +5,8 @@
     font-family: 'Raleway', sans-serif;
     color: #464646;
 }
+@media screen and (max-width:768px) {
+    .hobbies{
+        padding-top: 1rem;
+    }
+}
