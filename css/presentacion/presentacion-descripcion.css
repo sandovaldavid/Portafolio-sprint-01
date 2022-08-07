@@ -1,0 +1,27 @@
+.presentacion__descripcion{
+    width: 80%;
+}
+.presentacion__titulo{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646
+}
+.presentacion__biografia{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+.presentacion__lista{
+    padding-top: 2rem;
+}
+.presentacion__item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: inline-block;
+    padding-right:1.5rem ;
+}
