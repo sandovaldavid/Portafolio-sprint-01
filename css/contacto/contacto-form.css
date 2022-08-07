@@ -1,0 +1,21 @@
+.contacto__form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.enviar{
+    margin-top: 1rem;
+    width: 40%;
+    padding: 10px 16px;
+    border: none ;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border-radius: 20px;
+    transition: 0.3s;
+    text-align: center;
+    min-width: 150px;
+}
+.enviar:hover{
+    font-size: 20px;
+    padding: 8px 0px;
+}

@@ -1,0 +1,20 @@
+.contacto__input{
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+#mensaje, #asunto{
+    margin-top: 2rem;
+}
+#mensaje{
+    min-width: 60%;
+    height: 100px;
+    min-height: 50%;
+}
+.contacto__input:focus{
+    border-bottom: 2px solid #2A7AE4 ;
+}

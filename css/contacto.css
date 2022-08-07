@@ -1,0 +1,8 @@
+.contacto{
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #EAF2FD;
+    color: #464646;
+    font-family: 'Raleway',sans-serif;
+}
