@@ -22,3 +22,12 @@
 .menu__lista__item:last-child {
     font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+    .menu__lista__item{
+        display: none;
+    }
+    #head_correo{
+        display: inline-block;
+        font-size: 16px;
+    }
+}
