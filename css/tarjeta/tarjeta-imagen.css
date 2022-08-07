@@ -18,3 +18,28 @@
     width: 23px;
     height: 28px;
 }
+/*--------Hobbies--------*/
+.tarjeta__patinaje{
+    width: 23px;
+    height: 31px;
+}
+.tarjeta__tocarBajo{
+    width: 32px;
+    height: 37px;
+}
+.tarjeta__oirMusica{
+    width: 24px;
+    height: 24px;
+}
+.tarjeta__verSeries{
+    width: 30px;
+    height: 24px;
+}
+.tarjeta__cocinar{
+    width: 26px;
+    height: 25px;
+}
+.tarjeta__tomarFotos{
+    width: 27px;
+    height: 24px;
+}
