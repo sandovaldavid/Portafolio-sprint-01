@@ -1,0 +1,6 @@
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc(33.33% - 3rem);
+}
