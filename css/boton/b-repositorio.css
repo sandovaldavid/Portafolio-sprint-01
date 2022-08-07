@@ -1,4 +1,8 @@
 .b_repositorio{
     margin-right: 1rem;
-    border-color: #2A7AE4;
+    border: 2px solid #2A7AE4;
+    transition: 0.5s;
+}
+.b_repositorio:hover{
+    background: #0f10102a;
 }

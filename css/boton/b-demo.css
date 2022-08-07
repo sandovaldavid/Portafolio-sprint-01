@@ -1,4 +1,7 @@
 .b_demo{
     background: #2A7AE4;
-    
+    transition: 0.5s;
+}
+.b_demo:hover{
+    background: #79a9e7ba;
 }
