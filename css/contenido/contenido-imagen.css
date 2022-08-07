@@ -1,0 +1,11 @@
+.contenido__imagen{
+    display: flex;
+    background: #FFFFFF;
+    justify-content: space-around;
+}
+.contenido__imagen-alura, .contenido__imagen-unp, .contenido__imagen-ufrj{
+    box-sizing: content-box;
+    width: 190px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
