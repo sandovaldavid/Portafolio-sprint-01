@@ -1,0 +1,7 @@
+.head{
+    display: flex;
+    background: #F5F5F5;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    align-items: center;
+}
