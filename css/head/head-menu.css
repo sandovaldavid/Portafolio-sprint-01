@@ -6,7 +6,7 @@
 }
 .menu__lista__item{
     display: inline-block;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
