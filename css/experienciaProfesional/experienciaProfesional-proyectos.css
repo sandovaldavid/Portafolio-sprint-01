@@ -1,0 +1,5 @@
+.experienciaProfesional__proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

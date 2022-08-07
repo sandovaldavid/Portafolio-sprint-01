@@ -1,0 +1,6 @@
+.proyecto{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+    align-items: center;
+}
