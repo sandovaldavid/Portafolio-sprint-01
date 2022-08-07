@@ -2,9 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background: orange;
-    width: calc(16.6% - 4rem);
-    height: 11rem;
+    background: #FFFFFF;
+    width: calc(16.6% - 3rem);
     justify-content: flex-end;
     padding: 1rem 1rem;
 }
