@@ -1,0 +1,4 @@
+.hobbies__tarjetas{
+    display: flex;
+    justify-content: space-between;
+}
