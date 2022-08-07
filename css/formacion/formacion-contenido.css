@@ -1,0 +1,6 @@
+.formacion__contenido{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    align-items: flex-end;
+}
