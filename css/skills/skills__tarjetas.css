@@ -2,3 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width:768px) {
+    .skills__tarjetas{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
