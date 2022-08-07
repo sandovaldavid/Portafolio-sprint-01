@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/formacion.css">
     <link rel="stylesheet" href="css/experienciaProfesional.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/head/head-menu.css">
     <link rel="stylesheet" href="css/head/head-nombre.css">
     <link rel="stylesheet" href="css/presentacion/presentacion-descripcion.css">
@@ -51,6 +52,12 @@
     <link rel="stylesheet" href="css/boton/b-demo.css">
     <link rel="stylesheet" href="css/boton/b-repositorio.css">
     <link rel="stylesheet" href="css/boton/boton.css">
+    <link rel="stylesheet" href="css/contacto/contacto-descripcion.css">
+    <link rel="stylesheet" href="css/contacto/contacto-form.css">
+    <link rel="stylesheet" href="css/contacto/contacto-imagen.css">
+    <link rel="stylesheet" href="css/contacto/contacto-informacion.css">
+    <link rel="stylesheet" href="css/contacto/contacto-input.css">
+    <link rel="stylesheet" href="css/contacto/contacto-titulo.css">
 </head>
 <body>
     <header class="head container">
@@ -78,7 +85,7 @@
                 <li class="presentacion__item"><a href="https://github.com/sandovaldavid">GitHub &#129133</a></li>
                 <li class="presentacion__item"><a href="https://www.linkedin.com/in/jdavidsandovals/">Linkendin &#129133</a></li>
                 <li class="presentacion__item"><a href="#">Instagram &#129133</a></li>
-                <li class="presentacion__item"><a href="#">Curriculo &#129133</a></li>
+                <li class="presentacion__item"><a href="img/curriculo/Curriculo_David Sandoval.pdf">Curriculo &#129133</a></li>
             </ul>
         </div>
     </section>
@@ -153,7 +160,7 @@
         <div class="formacion__contenido">
             <div class="contenido">
                 <div class="contenido__imagen"><img src="img/alura_logo.png" alt="logo_alura" class="contenido__imagen-alura"></div>
-                <h2 class="contenido__titulo">Formación en UX Desing</h2>
+                <h2 class="contenido__titulo">Formación en UI Desing</h2>
                 <p class="contenido__descripcion">En curso - Alura</p>
             </div>
             <div class="contenido">
@@ -203,6 +210,25 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="contacto container">
+        <img src="img/contacto.png" alt="img_contacto" class="contacto__imagen">
+        <div class="contacto__informacion">
+            <h2 class="contacto__titulo">Contacto</h2>
+            <p class="contacto_descripcion">¿Quieres contactarme? <br>
+                Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+            <form class="contacto__form">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" class="contacto__input" required>
+        
+                <label for="email">Email</label>
+                <input type="email" id="email" class="contacto__input" required placeholder="example@email.com">
+        
+                <input type="text" id="asunto" class="contacto__input" required placeholder="Asunto">
+        
+                <TEXtarea  id="mensaje" class="contacto__input" required placeholder="Mensaje"></TEXtarea>
+            </form>
         </div>
     </section>
 </body>
