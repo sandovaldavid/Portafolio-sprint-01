@@ -6,3 +6,10 @@
     color: #464646;
     font-family: 'Raleway',sans-serif;
 }
+@media screen and (max-width:768px) {
+    .contacto{
+        display: block;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }   
+}

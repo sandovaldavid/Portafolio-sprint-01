@@ -1,3 +1,8 @@
 .contacto__imagen{
     width: 40%;
 }
+@media screen and (max-width:768px) {
+    .contacto__imagen{
+        display: none;
+    }   
+}
