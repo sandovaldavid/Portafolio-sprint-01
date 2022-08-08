@@ -9,3 +9,8 @@
         font-size: 14px;
     }   
 }
+@media screen and (max-width: 600px) {
+    .informacion__descripcion{
+        font-size: 14px;
+    }
+}
