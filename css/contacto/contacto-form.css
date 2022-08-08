@@ -20,3 +20,8 @@
     font-size: 20px;
     padding: 8px 0px;
 }
+@media screen and (min-width:996px) {
+    .enviar{
+        margin-top: 30%;
+    }
+}

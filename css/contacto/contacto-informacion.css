@@ -14,5 +14,6 @@
 @media screen and (min-width: 992px) {
     .contacto__informacion{
         padding-left: 2rem;
+        margin: 0px auto;
     }
 }
