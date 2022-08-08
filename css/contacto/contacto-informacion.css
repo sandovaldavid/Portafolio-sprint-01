@@ -1,6 +1,4 @@
-.contacto__informacion{
-    padding-left: 2rem;
-}
+
 @media screen and (min-width: 600px) {
     .contacto__informacion{
         padding-left: 0px;
@@ -13,7 +11,8 @@
 }
 @media screen and (min-width: 992px) {
     .contacto__informacion{
-        padding-left: 1rem;
-        margin-left: auto;
+        width: 60%;
+        padding-left: 2rem;
+        
     }
 }
