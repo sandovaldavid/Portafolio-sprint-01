@@ -9,7 +9,7 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 600px) {
     .contenido__imagen-alura, .contenido__imagen-unp, .contenido__imagen-ufrj{
         width: 100px;
         padding-top: 1rem;

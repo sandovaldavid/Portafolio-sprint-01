@@ -31,7 +31,7 @@
     font-weight: bold;
     transition: 0.5s;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 600px) {
     .presentacion__titulo{
         font-style: normal;
         font-weight: 700;

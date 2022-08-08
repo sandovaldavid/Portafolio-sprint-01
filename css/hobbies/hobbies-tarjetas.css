@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 600px) {
     .hobbies__tarjetas{
         flex-wrap: wrap;
     }   

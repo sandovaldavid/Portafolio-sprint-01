@@ -4,7 +4,7 @@
     padding-top: 2rem;
     align-items: flex-end;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 600px) {
  .formacion__contenido{
     align-items: center;
  }   

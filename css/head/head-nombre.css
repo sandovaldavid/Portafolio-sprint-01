@@ -9,7 +9,7 @@
 .titulo__nombre{
     order: 2;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px) {
     .titulo__nombre{
         font-size: 16px;
         font-weight: bold;

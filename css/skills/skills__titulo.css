@@ -6,7 +6,7 @@
     line-height: 38px;
     padding-bottom: 2rem;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 600px) {
     .skills__titulo{
         font-size: 22px;
     }

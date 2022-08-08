@@ -7,7 +7,7 @@
 .proyecto__imagen-03{
     order: 2;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 600px) {
     .proyecto__imagen{
         width: 100%;
     }   

@@ -22,7 +22,7 @@
 .menu__lista__item:last-child {
     font-weight: bold;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px) {
     .menu__lista__item{
         display: none;
     }

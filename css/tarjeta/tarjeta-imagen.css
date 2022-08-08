@@ -44,7 +44,7 @@
     width: 27px;
     height: 24px;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 600px) {
     .tarjeta__imagen{
         padding-top: 2.5rem;
     }   

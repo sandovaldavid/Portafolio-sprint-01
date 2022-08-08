@@ -4,7 +4,7 @@
     font-size: 32px;
     line-height: 38px;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 600px) {
     .sobreMi__titulo{
         font-size: 22px;
     }   

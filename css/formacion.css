@@ -5,7 +5,7 @@
     color: #464646;
     background: #EAF2FD;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 600px) {
     .formacion{
         padding-top: 2.5rem;
         padding-bottom: 2.5rem;

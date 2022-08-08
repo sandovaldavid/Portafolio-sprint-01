@@ -1,7 +1,7 @@
 .contacto__informacion{
     padding-left: 2rem;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width: 600px) {
     .contacto__informacion{
         padding-left: 0px;
     }   
