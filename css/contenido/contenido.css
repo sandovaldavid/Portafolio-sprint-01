@@ -4,3 +4,8 @@
     flex-direction: column;
     width: calc(33.33% - 3rem);
 }
+@media screen and (max-width:768px) {
+    .contenido{
+        width: 30%;
+    }
+}
