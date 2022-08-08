@@ -1,3 +1,8 @@
 .link_repositorio{
     color: #2A7AE4;
 }
+@media screen and (max-width:768px) {
+    .link_repositorio{
+        font-size: 14px;
+    }
+}

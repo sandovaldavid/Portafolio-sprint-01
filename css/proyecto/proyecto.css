@@ -4,3 +4,8 @@
     padding-bottom: 4rem;
     align-items: center;
 }
+@media screen and (max-width:768px) {
+    .proyecto{
+        flex-direction: column;
+    }
+}

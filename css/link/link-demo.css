@@ -1,3 +1,8 @@
 .link_demo{
     color: #FFFFFF;
 }
+@media screen and (max-width:768px) {
+    .link_demo{
+        font-size: 14px;
+    }   
+}

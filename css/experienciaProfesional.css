@@ -5,3 +5,9 @@
     color: #464646;
     background: #F5F5F5;
 }
+@media screen and (max-width:768px) {
+    .experiensiaProfesional{
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+    }
+}

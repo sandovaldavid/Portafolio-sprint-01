@@ -6,3 +6,8 @@
     text-align: center;
     padding-bottom: 2rem;
 }
+@media screen and (max-width:768px) {
+    .experienciaProfesional__titulo{
+        font-size: 22px;
+    } 
+}

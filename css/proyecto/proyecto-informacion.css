@@ -2,3 +2,10 @@
     width: calc(40% - 5rem);
     padding-left: 5rem;
 }
+@media screen and (max-width:768px) {
+    .proyecto__informacion{
+        order: 2;
+        width: 100%;
+        padding-left: 0px;
+    }
+}
