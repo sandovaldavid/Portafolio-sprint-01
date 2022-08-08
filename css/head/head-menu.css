@@ -22,12 +22,25 @@
 .menu__lista__item:last-child {
     font-weight: bold;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 0px) {
     .menu__lista__item{
         display: none;
     }
     #head_correo{
         display: inline-block;
         font-size: 16px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #head_correo{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .menu__lista__item{
+        display: inline-block;
+    }
+    .menu__lista{
+        display: flex;
     }
 }

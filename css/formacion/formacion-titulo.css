@@ -5,3 +5,8 @@
     line-height: 38px;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    .formacion__titulo{
+        font-size: 22px;
+    }   
+}

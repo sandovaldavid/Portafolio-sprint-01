@@ -4,8 +4,13 @@
     font-size: 32px;
     line-height: 38px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 0px) {
     .sobreMi__titulo{
         font-size: 22px;
     }   
+}
+@media screen and (min-width: 992px) {
+    .sobreMi__titulo{
+        font-size: 32px;
+    }
 }

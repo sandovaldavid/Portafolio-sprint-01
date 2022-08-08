@@ -4,7 +4,6 @@
     justify-content: space-around;
 }
 .contenido__imagen-alura, .contenido__imagen-unp, .contenido__imagen-ufrj{
-    box-sizing: content-box;
     width: 190px;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -14,5 +13,12 @@
         width: 100px;
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .contenido__imagen-alura, .contenido__imagen-unp, .contenido__imagen-ufrj{
+        width: 190px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 }

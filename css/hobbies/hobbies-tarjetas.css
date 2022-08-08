@@ -7,3 +7,14 @@
         flex-wrap: wrap;
     }   
 }
+@media screen and (max-width: 600px) {
+    .hobbies__tarjetas{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 992px) {
+    .hobbies__tarjetas{
+        flex-wrap: nowrap;
+    }
+}

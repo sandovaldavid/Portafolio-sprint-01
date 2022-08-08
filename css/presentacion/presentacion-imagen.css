@@ -1,6 +1,4 @@
 .presentacion__imagen{
-    width: 360px;
-    height: 360px;
     background: url(../../img/perfil.jpg);
     background-size: cover;
     background-position: center;
@@ -12,5 +10,17 @@
     .presentacion__imagen{
         width: 150px;
         height: 150px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .presentacion__imagen{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .presentacion__imagen{
+        width: 360px;
+        height: 360px;
     }
 }

@@ -1,7 +1,5 @@
 .hobbies{
     background: #F5F5F5;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
     font-family: 'Raleway', sans-serif;
     color: #464646;
 }
@@ -9,5 +7,17 @@
     .hobbies{
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .hobbies{
+        padding-top: 1rem;
+        padding-bottom: 2.5rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .hobbies{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
 }

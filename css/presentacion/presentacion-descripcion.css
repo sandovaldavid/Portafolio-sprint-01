@@ -2,16 +2,9 @@
     width: 70%;
 }
 .presentacion__titulo{
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 61px;
     color: #464646
 }
 .presentacion__biografia{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
     color: #464646;
 }
 .presentacion__lista{
@@ -23,7 +16,7 @@
     font-size: 16px;
     line-height: 19px;
     display: inline-block;
-    padding-right:1.5rem ;
+    padding-right:.5rem ;
     transition: 0.5s;
 }
 .presentacion__item:hover{
@@ -45,4 +38,41 @@
         line-height: 19px;
     }
 
+}
+@media screen and (max-width: 600px) {
+    .presentacion__descripcion{
+        order: 2;
+        width: 100%;
+    }
+    .presentacion__titulo{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .presentacion__biografia{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .presentacion__item{
+        font-size: 14px;
+    }
+    .presentacion__lista{
+        display: flex;
+    }
+}
+@media screen and (min-width: 992px) {
+    .presentacion__titulo{
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 61px;
+    }   
+    .presentacion__biografia{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+    }
 }

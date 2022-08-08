@@ -1,6 +1,4 @@
 .experiensiaProfesional{
-    padding-top: 3rem;
-    padding-bottom: 5rem;
     font-family: 'Raleway', sans-serif;
     color: #464646;
     background: #F5F5F5;
@@ -9,5 +7,11 @@
     .experiensiaProfesional{
         padding-top: 2rem;
         padding-bottom: 1.5rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .experiensiaProfesional{
+        padding-top: 3rem;
+        padding-bottom: 5rem;
     }
 }

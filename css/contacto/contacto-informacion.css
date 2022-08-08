@@ -6,3 +6,13 @@
         padding-left: 0px;
     }   
 }
+@media screen and (max-width: 600px) {
+    .contacto__informacion{
+        padding-left: 0px;
+    }   
+}
+@media screen and (min-width: 992px) {
+    .contacto__informacion{
+        padding-left: 2rem;
+    }
+}

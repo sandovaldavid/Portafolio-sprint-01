@@ -10,9 +10,15 @@
     text-align: justify;
     padding-top: 1.5rem;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 0px) {
     .sobreMi__texto{
         width: 100%;
         font-size: 14px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .sobreMi__texto{
+        width: 70%;
+        font-size: 16px;
     }
 }

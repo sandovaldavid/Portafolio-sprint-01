@@ -5,3 +5,8 @@
     line-height: 26px;
     padding-top: 1rem;
 }
+@media screen and (max-width: 600px) {
+    .contenido__titulo{
+        font-size: 16px;
+    }   
+}
