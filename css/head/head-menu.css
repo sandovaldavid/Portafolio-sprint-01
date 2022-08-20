@@ -1,10 +1,8 @@
-.head__menu{
-
-}
-.menu__lista{
+.menu__lista {
     align-items: center;
 }
-.menu__lista__item{
+
+.menu__lista__item {
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -15,32 +13,43 @@
     padding-left: 2rem;
     transition: 0.5s;
 }
-.menu__lista li:hover{
+
+.menu__lista li:hover {
     font-size: 20px;
     transition: 0.5s;
 }
+
 .menu__lista__item:last-child {
     font-weight: bold;
 }
+
 @media screen and (min-width: 0px) {
-    .menu__lista__item{
+    .menu__lista__item {
         display: none;
     }
-    #head_correo{
+
+    #head_correo {
         display: inline-block;
         font-size: 16px;
     }
 }
+
 @media screen and (max-width: 600px) {
-    #head_correo{
+    #head_correo {
         font-size: 14px;
     }
 }
+
 @media screen and (min-width: 992px) {
-    .menu__lista__item{
+    .head__menu {
+        margin-right: 10rem;
+    }
+
+    .menu__lista__item {
         display: inline-block;
     }
-    .menu__lista{
+
+    .menu__lista {
         display: flex;
     }
 }
